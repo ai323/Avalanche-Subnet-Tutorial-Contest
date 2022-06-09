@@ -46,7 +46,7 @@ Now you can use this command to create your own subnet:
 ```shell
 avalanche subnet create <subnetName>
 ```
-After typing the command, use your keyboard to select **SubnetEVM** to getstarted.
+After typing the command, use your keyboard to navigate to the **SubnetEVM** option to get started.
 
 <img width="290" alt="image" src="https://user-images.githubusercontent.com/85045618/172835351-1b584b5a-10df-4d36-b20c-7f849d9fc31b.png">
 
