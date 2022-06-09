@@ -50,7 +50,7 @@ After typing the command, use your keyboard to select **SubnetEVM** to getstarte
 
 <img width="290" alt="image" src="https://user-images.githubusercontent.com/85045618/172835351-1b584b5a-10df-4d36-b20c-7f849d9fc31b.png">
 
-To get your subnet up and running, you need to assign a ChainId to it:
+To get your subnet up and running, you need to assign a **ChainId** to it:
 
 <img width="427" alt="image" src="https://user-images.githubusercontent.com/85045618/172839885-c4949e59-d354-4c20-a91f-2dbc3a54f2bc.png">
 
