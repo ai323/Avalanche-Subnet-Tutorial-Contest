@@ -2,7 +2,7 @@
 
 First thing first, you need to install [Avalanche-CLI](https://github.com/ava-labs/avalanche-cli), which is a command line tool that gives developers access to everything Avalanche.
 
-## Directory Creation
+## 📁 Directory Creation
 
 Before you rush to download the binary file, you need to create a local directory where the Avalanche-CLI file will be saved.
 
@@ -12,7 +12,7 @@ After that, you can use the cd command to go to the directory:
 cd <your newly created directory>
 ```
 
-## Default Installtion
+## ⏳ Default Installtion
 
 To install the binary in your current directory, please use the following command in you command line window.
 
@@ -21,14 +21,14 @@ curl -sSfL https://raw.githubusercontent.com/ava-labs/avalanche-cli/main/scripts
 ```
 The binary will be installed inside the ./ directory (relative to where the install command was run).
 
-## Custom Installation
+## ⏳ Custom Installation
 
 To download the binary into a specific directory, run this command instead:
 ```shell
 curl -sSfL https://raw.githubusercontent.com/ava-labs/avalanche-cli/main/scripts/install.sh | sh -s -- -b <relative directory>
 ```
 
-## Add to path
+## 🏷️ Add to path
 
 To add the binary to your path, run
 
@@ -39,7 +39,7 @@ export PATH=$PWD:$PATH
 
 To add it to your path permanently, add an export command to your shell initialization script (ex: .bashrc).
 
-## Create Subnet 
+## ⚒️ Create Subnet 
 
 Now you can use this command to create your own subnet:
 
@@ -53,4 +53,33 @@ After typing the command, use your keyboard to navigate to the **SubnetEVM** opt
 To get your subnet up and running, you need to assign a **ChainId** to it:
 
 <img width="427" alt="image" src="https://user-images.githubusercontent.com/85045618/172839885-c4949e59-d354-4c20-a91f-2dbc3a54f2bc.png">
+
+Also, you have to set the fee configuration for your subnet, there are three default options: Low/Medium/High and if none of the opiton satisfies your needs, you can go ahead with **Customize fee config** option 😀
+
+<img width="528" alt="image" src="https://user-images.githubusercontent.com/85045618/172840496-eb1a16b3-ef5f-4d21-a771-b55251dbc3a7.png">
+
+Next is to configure the **airdrop** option and again we go with the flow 😀
+
+<img width="553" alt="image" src="https://user-images.githubusercontent.com/85045618/172842231-9c9b5cd8-f886-479b-b77c-8ff5a48c0f7e.png">
+
+And next you are given an option to add custom **precompile** to modify the EVM:
+
+<img width="514" alt="image" src="https://user-images.githubusercontent.com/85045618/172842604-60574ad5-b727-4c87-85e6-a867691ef5be.png">
+
+With all the configurations, we just successfully created genesis 🎉 Congratulations 😆
+
+<img width="540" alt="image" src="https://user-images.githubusercontent.com/85045618/172843450-3afc8339-4179-47db-8f25-879474b15e50.png">
+
+## ⚒️ Deploy Subnet
+
+Once you successfully created your own subnet, you can now deploy it 😀
+
+```shell
+avalanche subnet deploy <subnetName>
+```
+
+Basically you have three options here: Local Network, Fuji Network and Mainnet:
+
+<img width="283" alt="image" src="https://user-images.githubusercontent.com/85045618/172843923-3e83b088-e32e-4c7f-bce6-d2b82d50f874.png">
+
 
