@@ -2,9 +2,15 @@
 
 First thing first, you need to install [Avalanche-CLI](https://github.com/ava-labs/avalanche-cli), which is a command line tool that gives developers access to everything Avalanche.
 
-## Folder Creation
+## Directory Creation
 
-Before you rush to download the binary file, you need to create a local folder which the Avalanche-CLI file will be saved.
+Before you rush to download the binary file, you need to create a local directory where the Avalanche-CLI file will be saved.
+
+After that, you can use the cd command to go to the directory:
+
+```
+cd <your newly created directory>
+```
 
 ## Default Installtion
 
