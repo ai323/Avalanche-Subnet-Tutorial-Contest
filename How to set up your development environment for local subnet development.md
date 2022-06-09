@@ -1,6 +1,10 @@
 # How to set up your development environment for local subnet development?
 
-1. First thing first, you need to install [Avalanche-CLI](https://github.com/ava-labs/avalanche-cli), which is a command line tool that gives developers access to everything Avalanche.
+First thing first, you need to install [Avalanche-CLI](https://github.com/ava-labs/avalanche-cli), which is a command line tool that gives developers access to everything Avalanche.
+
+## Folder Creation
+
+Before you rush to download the binary file, you need to create a local folder which the Avalanche-CLI file will be saved.
 
 ## Default Installtion
 
