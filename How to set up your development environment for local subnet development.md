@@ -1,5 +1,7 @@
 # How to set up your development environment for local subnet development?
 
+## Step-By-Step Guide
+
 First thing first, you need to install [Avalanche-CLI](https://github.com/ava-labs/avalanche-cli), which is a command line tool that gives developers access to everything Avalanche.
 
 ## 📁 Directory Creation
@@ -82,4 +84,33 @@ Basically you have three options here: Local Network, Fuji Network and Mainnet:
 
 <img width="283" alt="image" src="https://user-images.githubusercontent.com/85045618/172843923-3e83b088-e32e-4c7f-bce6-d2b82d50f874.png">
 
+## 📕 Glossary
 
+### Subnet
+
+A subnet, or subnetwork, is a dynamic set of validators working together to achieve consensus on the state of a set of blockchains. Each blockchain is validated by exactly one subnet. A subnet can validate many blockchains. A node may be a member of many subnets.
+
+A subnet manages its own membership, and it may require that its constituent validators have certain properties.
+
+### EVM
+
+EVM stands for Ethereum Virtual Machine, it is a concept first brought up by Ethereum. 
+
+A Virtual Machine (VM) defines the application-level logic of a blockchain. In technical terms, it specifies the blockchain’s state, state transition function, transactions, and the API through which users can interact with the blockchain. Every blockchain on Avalanche is an instance of a VM.
+
+When you write a VM, you don't need to concern yourself with lower-level logic like networking, consensus, and the structure of the blockchain. Avalanche does this behind the scenes so you can focus on the thing you would like to build.
+
+Think of a VM as a blueprint for a blockchain; you can use the same VM to create many blockchains, each of which follows the same ruleset but is logically independent of other blockchains.
+
+
+### ChainId
+
+Ethereum networks have two identifiers, a network ID and a chain ID. Although they often have the same value, they have different uses.
+
+Peer-to-peer communication between nodes uses the network ID, while the transaction signature process uses the chain ID.
+
+### Airdrop
+
+Airdrops involve crypto projects sending free tokens en masse to their communities in a bid to encourage adoption.
+
+In our subnet case, since you are the creator of the subnet, you are entitled to create airdrop for yourelf.
