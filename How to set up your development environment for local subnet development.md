@@ -84,6 +84,14 @@ Basically you have three options here: Local Network, Fuji Network and Mainnet:
 
 <img width="283" alt="image" src="https://user-images.githubusercontent.com/85045618/172843923-3e83b088-e32e-4c7f-bce6-d2b82d50f874.png">
 
+For now we'll go with Local Network. Once the depolyment is completed, you should see something like the screenshot below:
+
+<img width="1188" alt="image" src="https://user-images.githubusercontent.com/85045618/173053161-4ad85523-c901-4c74-93ed-70e6410ae18b.png">
+
+## Closing Thoughts
+
+Fantastic! You have successfully created and deployed a subnet to your local network 😀
+
 ## 📕 Glossary
 
 ### Subnet
