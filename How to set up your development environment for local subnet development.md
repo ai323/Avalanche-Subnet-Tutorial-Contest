@@ -54,7 +54,9 @@ After typing the command, use your keyboard to navigate to the **SubnetEVM** opt
 
 To get your subnet up and running, you need to assign a **ChainId** to it:
 
-<img width="427" alt="image" src="https://user-images.githubusercontent.com/85045618/172839885-c4949e59-d354-4c20-a91f-2dbc3a54f2bc.png">
+<img width="432" alt="image" src="https://user-images.githubusercontent.com/85045618/173055221-5783acd7-1778-4baa-bdd7-9645ec91239c.png">
+
+**Warning** Please make sure the **ChainId** that you are assigning to your subnet is not takend (i.e. ChainID = 1 will thorw an error when you try to deploy your subnet to local network)
 
 Also, you have to set the fee configuration for your subnet, there are three default options: Low/Medium/High and if none of the opiton satisfies your needs, you can go ahead with **Customize fee config** option 😀
 
