@@ -88,9 +88,19 @@ For now we'll go with Local Network. Once the depolyment is completed, you shoul
 
 <img width="1188" alt="image" src="https://user-images.githubusercontent.com/85045618/173053161-4ad85523-c901-4c74-93ed-70e6410ae18b.png">
 
-## Closing Thoughts
+## 🤔 Closing Thoughts
 
 Fantastic! You have successfully created and deployed a subnet to your local network 😀
+
+And here are a few open questions that you can play around with your subnet:
+
+- Troubleshoot common issues
+- Add node validators to the subnet
+- Access funded accounts
+- Deploy smart contracts
+- Interact with contracts
+- Bonus point: explain how to experiment with different customization by creating/tearing down/recreating
+
 
 ## 📕 Glossary
 
